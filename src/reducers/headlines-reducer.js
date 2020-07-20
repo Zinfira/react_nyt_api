@@ -12,13 +12,12 @@ export default (state = initialState, action) => {
       return Object.assign({}, state, {
         isLoading: true
       });
+    case c.GET_HEADLINES_SUCCESS:
+      return Object.assign({}, state, {
+        isLoading: false,
+        headlines: action.headlines
+      });
     default:
       return state;
     }
 };
-
-const defaultState = {
-  isLoading: false,
-  headlines: [],
-  error: null
-}
