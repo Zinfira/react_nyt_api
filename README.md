@@ -22,9 +22,11 @@ Then, run at the project's root directory via Terminal the following commands:
 
 * >$ npm install
 
-Create a `.env` file in the root directory of the project. To get a New York Times API, go to [Get Started](https://developer.nytimes.com/get-started) at the NYT's Developer site. Then, add the following to the `.env` file.
+Create a `.env` file in the root directory of the project. To get a New York Times API, go to [Get Started](https://developer.nytimes.com/get-started) at the NYT's Developer site. Then, add the following to the `.env` file:
 
-* >$ REACT_APP_API_KEY=[Your NYT API key goes here]
+* > REACT_APP_API_KEY=[Your NYT API key goes here]
+
+Run the following command in the terminal:
 
 * >$ npm start
 
